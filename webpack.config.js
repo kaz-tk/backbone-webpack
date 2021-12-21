@@ -26,15 +26,15 @@ module.exports = {
     rules: [
       {test: /\.ejs$/, use: 'raw-loader'},
     ]
-  }
-  // plugins: [
-  //   new CopyPlugin({
-  //     patterns: [
+  },
+  plugins: [
+    new CopyPlugin({
+      patterns: [
   //       {from: "src/lang", to: "./lang"},
   //       {from: "src/utils", to: "./utils"},
   //       {from: "vendor/", to: "./vendor/"},
-  //       {from: "index.html", to: "./"},
-  //     ],
-  //   }),
-  // ],
+        {from: "index.html", to: "./"},
+      ],
+    }),
+  ],
 };

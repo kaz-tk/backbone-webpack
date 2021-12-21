@@ -1,5 +1,4 @@
-./public/*.js
-./public/*.json
+./public/*
 
 # Created by https://www.toptal.com/developers/gitignore/api/node,web,intellij+all,pycharm+all
 # Edit at https://www.toptal.com/developers/gitignore?templates=node,web,intellij+all,pycharm+all
